@@ -46,7 +46,7 @@
   figure(1); clf; hold on
   
   % Plot exact
-  plot(t_exact,x_exact(1,:),'-','LineWidth',2,'Color',[.5 .5 .5])
+  plot(t_exact,x_exact(2,:),'-','LineWidth',2,'Color',[.5 .5 .5])
   
   % Plot numerical results
   for j=1:length(method_name)
